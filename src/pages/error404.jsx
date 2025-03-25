@@ -5,7 +5,7 @@ import PageNotFound from "../components/pagenotfound";
 function Error404(){
    return(
       <>
-      <Header />
+      <Header position="fixed"/>
       <main id="error">
       <PageNotFound />
       </main>

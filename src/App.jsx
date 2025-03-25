@@ -5,6 +5,8 @@ import Contact from './pages/contact'
 import Error404 from './pages/error404'
 import Home from './pages/home'
 import Skills from './pages/skills'
+import Projects from './pages/projects'
+
 
 
 function App(){
@@ -15,6 +17,7 @@ function App(){
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills/>} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="*" element={<Error404/>} />
       </Routes>
     </Router>

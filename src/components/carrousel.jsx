@@ -21,7 +21,7 @@ export default function SimpleSlider(){
    return(
       <>
       <h1>Projets réalisés</h1>
-      <Slider{...settings}>
+      <Slider {...settings}>
       <div>
          <img src="/images/Projets/Brigitte.jpg" alt="Projet Brigitte" />
       </div>

@@ -1,14 +1,13 @@
 import SimpleSlider from "../components/carrousel"
 import Footer from "../components/footer"
 import Header from "../components/header"
-import Map from "../components/map"
 import SkillsCompo from "../components/skillscompo"
 
 
 
 function Home(){
    return(
-      <>
+      <div id="home">
       <Header/>
       <main>
          <section id="bienvenue">      
@@ -25,14 +24,19 @@ function Home(){
       <SimpleSlider />
       </section>
 
-      <section>
-         <Map />
+      <section id="map">
 
+            <h1>Mise en place de solutions informatiques dans le Var</h1>
+
+            <img src="./images/carte.png" alt="Carte placé sur Cotignac" />
+
+            <img src="./images/responsive.jpg" alt="" />
+  
       </section>
 
       </main>
       <Footer/>
-      </>
+      </div>
 
    )
 }

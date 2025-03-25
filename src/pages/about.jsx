@@ -8,7 +8,7 @@ function About(){
       <>
       <Header />
        <main>
-      <h1>Contact</h1>
+      <h1>A propos</h1>
          <p></p>
       </main>
       <Footer />
