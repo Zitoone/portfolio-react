@@ -25,13 +25,12 @@ function Home(){
       </section>
 
       <section id="map">
-
-            <h1>Mise en place de solutions informatiques dans le Var</h1>
-
-            <img src="./images/carte.png" alt="Carte placé sur Cotignac" />
-
+           <div>
+               <h1>Mise en place de solutions informatiques dans le Var</h1>
+               <img src="./images/carte.png" alt="Carte placée sur Cotignac" />
+            </div>
             <img src="./images/responsive.jpg" alt="" />
-  
+ 
       </section>
 
       </main>

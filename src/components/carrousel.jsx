@@ -32,10 +32,13 @@ export default function SimpleSlider(){
          <img src="/images/Projets/fonciere.jpg" alt="Projet Foncière" />
       </div>
       <div>
-      <img src="/images/Projets/Hagile.png" alt="Projet Hagile" />
+         <img src="/images/Projets/Hagile.png" alt="Projet Hagile" />
       </div>
       <div>
-      <img src="images/Projets/Skillfacile.png" alt="Projet Skill facile" />
+         <img src="images/Projets/Skillfacile.png" alt="Projet Skill facile" />
+      </div>
+      <div>
+         <img src="images/Projets/oraculus.png" alt="Projet Oraculus" />
       </div>
       </Slider>
       </>

@@ -1,4 +1,5 @@
 import Footer from "../components/footer"
+import Form from "../components/form"
 import Header from "../components/header"
 
 function Contact(){
@@ -10,32 +11,41 @@ function Contact(){
 
       <h1>Contact</h1>
       <div className="container">
-      <div>
-         <h3>Vous pouvez me contacter par tous les moyens</h3>
-
-         <p>Olivia Nanquette</p>
-         <br />
-         <p>Adresse</p>
-         <p>31 rue Droite</p>
-         <p>83670 Fox Amphoux</p>
-         <br />
-         <p>Email</p>
-         <p>oliviananquette@yahoo.fr</p>
-         <br />
-         <p>Téléphone</p>
-         <p>06 5007 5005</p>
-
+         <div>
+            <h3>Vous pouvez me contacter par tous les moyens</h3>
+            <p>Olivia Nanquette</p>
+            <br />
+            <p>Adresse</p>
+            <p>31 rue Droite</p>
+            <p>83670 Fox Amphoux</p>
+            <br />
+            <p>Email</p>
+            <p>oliviananquette@yahoo.fr</p>
+            <br />
+            <p>Téléphone</p>
+            <p>06 5007 5005</p>
+         </div>
+         <div>
+            <h3>Formulaire de contact</h3>
+            <Form/>
+         </div>
       </div>
 
-      <div>
-         <h3>Formulaire de contact</h3>
-         <form action="#">
+      </main>
+      <Footer />
+      </>
+
+   )
+}
+export default Contact
+
+{/* <form>
             <input type="text" name="lastname" id="lastname" placeholder="Nom"/>
             <input type="text" name="firstname" id="firstname" placeholder="Prénom"/>
             <input type="email" name="email" id="email" placeholder="Email" />
             <input type="text" name="message" id="message" placeholder="Message"/>
             <button className="contactButton"  type="submit">Envoyer
-               <div class="iconButton">
+               <div className="iconButton">
                   <svg
                      height="24"
                      width="24"
@@ -48,14 +58,4 @@ function Contact(){
                </div>
             </button>
          </form>
-      </div>
-</div>
-
-
-      </main>
-      <Footer />
-      </>
-
-   )
-}
-export default Contact
+      </div> */}
