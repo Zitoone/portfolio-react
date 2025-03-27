@@ -53,6 +53,9 @@ header nav a{
 header nav a:hover{
    color: orangered;
 }
+nav a.active{
+   color: orangered;
+ }
 footer{
    text-align: center;
    font-family: "PT Sans", sans-serif;
@@ -97,6 +100,49 @@ footer a:hover{
 }
 #bienvenue h1{
    margin-left: 200px;
+   font-size: 50px;
+}
+#bienvenue h1 span{
+   font-size: 30px;
+}
+
+#skills {
+   margin-top: 50px;
+}
+#about article{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-items: center;
+   margin: 50px;
+}
+#about p{
+   margin: 10px 0;
+   text-align: center;
+}
+#about img{
+   width: 50%;
+   height: 100%;
+}
+#about hr{
+   border: 2px solid orangered;
+   width: 1000px;
+   justify-self: center;
+}
+#about #cv{
+   justify-items: center;
+}
+#about i{
+   font-size: 30px;
+   color: orangered;
+}
+#about a{
+   text-decoration: none;
+   color: black;
+   font-family: "PT Sans", sans-serif;
+   padding: 10px;
+}
+#about a:hover{
+   color: orangered;
 }
 #competences #skillsicons{
    display: grid;
@@ -107,6 +153,11 @@ footer a:hover{
    color: orangered;
    padding-bottom: 50px;
 }
+
+#competences div{
+   justify-items: center;
+   }
+
 #competences h1{
    padding-bottom: 50px;
 }
@@ -145,7 +196,7 @@ text-align: end;
 }
 
 #contact input{
-   width: 50%;
+   width: 60%;
    height: 20px;
    font-size: 16px;
    text-align: center;

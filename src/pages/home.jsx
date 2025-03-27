@@ -11,11 +11,11 @@ function Home(){
       <Header/>
       <main>
          <section id="bienvenue">      
-         <h1>Bienvenue <br />
-         sur le <br/>portfolio <br />de <br />Olivia N.</h1>
+         <h1>Bienvenue <br /> <span>sur le</span>
+          <br/>portfolio <br /> <span>de</span> <br />Olivia N.</h1>
       </section>
 
-      <section >
+      <section id="skills">
          <SkillsCompo />
          
       </section>

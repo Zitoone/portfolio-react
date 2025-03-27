@@ -5,6 +5,7 @@ function Contact(){
    return(
       <>
       <Header/>
+
       <main id="contact">
 
       <h1>Contact</h1>

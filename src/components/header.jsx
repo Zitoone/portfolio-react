@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 function Header(){
+
    return(
       <header>
         <Link to="/">
@@ -12,11 +13,11 @@ function Header(){
         </div>
         <nav className="hidden">
             <ul>
-                <li><Link to="/">Accueil</Link></li>
-                <li><Link to="/about">A propos</Link></li>
-                <li><Link to="/skills">Compétences</Link></li>
-                <li><Link to="/projects">Projets</Link></li>
-                <li><Link id="contact-button" to="/contact">Contact</Link></li>
+                <li><NavLink to="/">Accueil</NavLink></li>
+                <li><NavLink to="/about">A propos</NavLink></li>
+                <li><NavLink to="/skills">Compétences</NavLink></li>
+                <li><NavLink to="/projects">Projets</NavLink></li>
+                <li><NavLink id="contact-button" to="/contact">Contact</NavLink></li>
             </ul>
         </nav>
     </header>
